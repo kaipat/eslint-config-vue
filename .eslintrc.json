@@ -1,0 +1,3 @@
+{
+  "extends": "@kaipat/eslint-config-vue"
+}
