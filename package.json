@@ -14,8 +14,10 @@
   "scripts": {
     "upload": "npm version patch && git push && git push --tag && npm publish --access public"
   },
+  "dependencies": {
+    "@kaipat/eslint-config-basic": "^0.0.6"
+  },
   "devDependencies": {
-    "@kaipat/eslint-config-basic": "^0.0.5",
     "@kaipat/eslint-config-vue": "./",
     "eslint": "^8.43.0"
   }
